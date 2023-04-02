@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    overflow-y: hidden;
+
+    background-color: #61727a;
+}
+
+/*--------------------KEYFRAMES--------------------*/
+@keyframes slideInLeft {
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+  }
+@keyframes slideInRight {
+	0% {
+	  transform: translateX(100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+  }
+@keyframes slideUp {
+	0% {
+	  transform: translateY(100%);
+	}
+	100% {
+	  transform: translateY(0);
+	}
+  }
+@keyframes blink {
+	0% { 
+		opacity: 1; 
+	}
+	100% { 
+		opacity: 0;
+	}
+  }
+@keyframes fadeIn {
+	0%, 20%, 50% { 
+		opacity: 0; 
+	}
+	100% { 
+		opacity: 1; 
+	}
+  }
+@keyframes bounce { 
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+	40% {transform: translateY(-30px);} 
+	60% {transform: translateY(-15px);} 
+ }
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+@keyframes blink-caret {
+	from, to { border-color: transparent; }
+	50% { border-color: #A91101; }
+}
+/*--------------------KEYFRAMES--------------------*/
+
+/*--------------------FONT--------------------*/
+@font-face {
+  font-family: 'AbadiExtraLight';
+  src: url('../assets/font/Abadi/EM-Abadi/AbadiMT-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'AbadiLight';
+  src: url('../assets/font/Abadi/EM-Abadi/AbadiMT-Light.ttf');
+}
+@font-face {
+  font-family: 'AbadiExtraBold';
+  src: url('../assets/font/Abadi/EM-Abadi/AbadiMT-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'AbadiBold';
+  src: url('../assets/font/Abadi/EM-Abadi/AbadiMT-Bold.ttf');
+}
+@font-face {
+	font-family: 'AbadiCondensed';
+	src: url('../assets/font/Abadi/EM-Abadi/AbadiMT-Condensed.ttf');
+  }
+/*--------------------FONT--------------------*/
+
+/*--------------------SCROLLBAR--------------------*/
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #A91101;
+  /*border-radius: 30px;*/
+}
+/*--------------------SCROLLBAR--------------------*/
+::selection {
+	color: red;
+	background: white;
+}

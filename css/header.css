@@ -1,0 +1,64 @@
+header{
+    position: fixed;
+    z-index: 1;
+}
+
+.gucccikev {
+    text-decoration: none;
+
+    font-family: AbadiExtraLight;
+    font-size: 50px;
+
+    color: #ffffff;
+
+    top: 10%;
+    left: 20%;
+}
+
+.email {
+    text-decoration: none;
+
+    font-family: AbadiExtraLight;
+    font-size: 25px;
+
+    color: #ffffff;
+
+    top: 10%;
+    left: 20%;
+}
+
+.linkedin {
+    text-decoration: none;
+
+    font-family: AbadiExtraLight;
+    font-size: 25px;
+
+    color: #ffffff;
+
+    top: 10%;
+    left: 20%;
+}
+
+.github {
+    text-decoration: none;
+
+    font-family: AbadiExtraLight;
+    font-size: 25px;
+
+    color: #ffffff;
+
+    top: 10%;
+    left: 20%;
+}
+
+.artstation {
+    text-decoration: none;
+
+    font-family: AbadiExtraLight;
+    font-size: 25px;
+
+    color: #ffffff;
+
+    top: 10%;
+    left: 20%;
+}
